@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-27T10:46:42 CDT" name="Practice Suite" finished-at="2022-05-27T10:47:05 CDT" duration-ms="22565">
+    <groups>
+    </groups>
+    <test started-at="2022-05-27T10:46:42 CDT" name="Login" finished-at="2022-05-27T10:47:05 CDT" duration-ms="22565">
+      <class name="com.salesforce.tests.SFDCLoginTest">
+        <test-method is-config="true" signature="initialTestSetup()[pri:0, instance:com.salesforce.tests.SFDCLoginTest@6c779568]" started-at="2022-05-27T10:46:42 CDT" name="initialTestSetup" finished-at="2022-05-27T10:46:43 CDT" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialTestSetup -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.salesforce.tests.SFDCLoginTest@6c779568]" started-at="2022-05-27T10:46:43 CDT" name="setUp" finished-at="2022-05-27T10:46:46 CDT" duration-ms="3361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.tests.SFDCLoginTest.checkRememberMe() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkRememberMe()[pri:0, instance:com.salesforce.tests.SFDCLoginTest@6c779568]" started-at="2022-05-27T10:46:46 CDT" name="checkRememberMe" finished-at="2022-05-27T10:46:55 CDT" duration-ms="8635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRememberMe -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.SFDCLoginTest@6c779568]" started-at="2022-05-27T10:46:55 CDT" name="tearDown" finished-at="2022-05-27T10:46:55 CDT" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.salesforce.tests.SFDCLoginTest@6c779568]" started-at="2022-05-27T10:46:55 CDT" name="setUp" finished-at="2022-05-27T10:46:57 CDT" duration-ms="2139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.tests.SFDCLoginTest.forgotPasswd()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="forgotPasswd()[pri:0, instance:com.salesforce.tests.SFDCLoginTest@6c779568]" started-at="2022-05-27T10:46:57 CDT" name="forgotPasswd" finished-at="2022-05-27T10:46:58 CDT" duration-ms="1118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.SFDCLoginTest@6c779568]" started-at="2022-05-27T10:46:58 CDT" name="tearDown" finished-at="2022-05-27T10:46:58 CDT" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.salesforce.tests.SFDCLoginTest@6c779568]" started-at="2022-05-27T10:46:58 CDT" name="setUp" finished-at="2022-05-27T10:47:00 CDT" duration-ms="2147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.tests.SFDCLoginTest.loginErrorMsg() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginErrorMsg()[pri:0, instance:com.salesforce.tests.SFDCLoginTest@6c779568]" started-at="2022-05-27T10:47:00 CDT" name="loginErrorMsg" finished-at="2022-05-27T10:47:01 CDT" duration-ms="944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorMsg -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.SFDCLoginTest@6c779568]" started-at="2022-05-27T10:47:01 CDT" name="tearDown" finished-at="2022-05-27T10:47:01 CDT" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.salesforce.tests.SFDCLoginTest@6c779568]" started-at="2022-05-27T10:47:01 CDT" name="setUp" finished-at="2022-05-27T10:47:03 CDT" duration-ms="2193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.tests.SFDCLoginTest.validateErrorMsg() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateErrorMsg()[pri:0, instance:com.salesforce.tests.SFDCLoginTest@6c779568]" started-at="2022-05-27T10:47:03 CDT" name="validateErrorMsg" finished-at="2022-05-27T10:47:05 CDT" duration-ms="1110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorMsg -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.SFDCLoginTest@6c779568]" started-at="2022-05-27T10:47:05 CDT" name="tearDown" finished-at="2022-05-27T10:47:05 CDT" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="finalTestTearDown()[pri:0, instance:com.salesforce.tests.SFDCLoginTest@6c779568]" started-at="2022-05-27T10:47:05 CDT" name="finalTestTearDown" finished-at="2022-05-27T10:47:05 CDT" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalTestTearDown -->
+      </class> <!-- com.salesforce.tests.SFDCLoginTest -->
+    </test> <!-- Login -->
+  </suite> <!-- Practice Suite -->
+</testng-results>
