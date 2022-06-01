@@ -2,6 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Practice Suite">
 
+<listeners>
+<listener class-name="com.salesforce.base.TestListener">
+</listener>
+</listeners>
 <test name="Login">
 <classes>
 <class name="com.salesforce.tests.SFDCLoginTest">

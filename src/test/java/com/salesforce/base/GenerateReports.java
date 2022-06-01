@@ -63,6 +63,11 @@ public class GenerateReports {
 	public void logTestFailed() {
 		logger.log(Status.FAIL, MarkupHelper.createLabel(testcaseName + "is not passTest", ExtentColor.RED));
 	}
+	
+	public void logTestSkipped() {
+		logger.log(Status.SKIP, "Test Skipped");
+	}
+
 	public void logTestFailedWithException(Exception e) {
 	logger.log(Status.ERROR,e);
 	}
